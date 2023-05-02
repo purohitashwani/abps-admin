@@ -138,28 +138,28 @@
   ],
   "profiles": [
     {
-      "email": "demo2@ho.co",
-      "fullName": "Demo Super Admin",
+      "email": "gp@gmail.co",
+      "fullName": "Giriraj Purohit",
       "role": 2,
       "id": 2,
       "userId": 2
     },
     {
-      "email": "zt@ho.co",
-      "fullName": "Ziya Taşkın",
+      "email": "rajvyas@ho.co",
+      "fullName": "Rishiraj Vyas",
       "role": 1,
       "id": 3,
       "userId": 3
     },
     {
-      "email": "john@mail.com",
-      "fullName": "John Green",
+      "email": "narayanp102@mail.com",
+      "fullName": "Narayan Purohit",
       "role": 1,
       "id": 4
     },
     {
-      "email": "kg@denx.com",
-      "fullName": "Kang Chencu",
+      "email": "vyas1008@denx.com",
+      "fullName": "Suresh Vyas",
       "role": 1,
       "id": 5,
       "userId": 5
@@ -167,7 +167,7 @@
     {
       "id": 7,
       "email": "ksa@ho.co",
-      "fullName": "Kei Slazse",
+      "fullName": "Ashwani Purohit",
       "role": 1,
       "userId": "4f69000d-65a3-4ef3-9d28-ff8485350048"
     },
