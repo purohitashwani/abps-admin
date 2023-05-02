@@ -6,4 +6,5 @@ export interface PROFILE extends USER {
   userId: string;
   fullName: string;
   role: number;
+  mobileNumber: number
 }

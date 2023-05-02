@@ -2,11 +2,14 @@
   <table class="table table-striped table-hover">
     <thead>
       <tr>
-        <th style="width: 30px"></th>
-        <th style="width: 30px"></th>
-        <th>Fullname</th>
-        <th>Username</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Address</th>
+        <th>Status</th>
         <th>Role</th>
+        <th>Actions</th>
+        <!-- <th style="width: 30px"></th> -->
       </tr>
     </thead>
     <tbody>
@@ -14,7 +17,7 @@
         *ngFor="let user of userList; trackBy: trackByFn"
         style="vertical-align: middle"
       >
-        <td>
+        <!-- <td>
           <button
             mat-icon-button
             matTooltip="Edit"
@@ -44,10 +47,43 @@
               <span>Delete</span>
             </button>
           </mat-menu>
-        </td>
+        </td> -->
         <td>{{ user?.fullName }}</td>
         <td>{{ user?.email }}</td>
+        <td>-</td>
+        <td>-</td>
+        <td>Active</td>
         <td>{{ visualizeUserRole(user?.role) }}</td>
+        <td>
+          <button
+            mat-icon-button
+            matTooltip="Edit"
+            color="primary"
+            (click)="update.emit(user)"
+          >
+            <mat-icon>edit</mat-icon>
+          </button>
+
+          <button
+          mat-icon-button
+          matTooltip="Delete"
+          color="warn"
+          [matMenuTriggerFor]="deleteMenu"
+          [disabled]="isOwner(user)"
+        >
+          <mat-icon>delete</mat-icon>
+        </button>
+        <mat-menu #deleteMenu="matMenu">
+          <button mat-menu-item>
+            <mat-icon>back_hand</mat-icon>
+            <span>Cancel</span>
+          </button>
+          <button mat-menu-item (click)="delete.emit(user)">
+            <mat-icon color="warn">delete_forever</mat-icon>
+            <span>Delete</span>
+          </button>
+        </mat-menu>
+        </td>
       </tr>
     </tbody>
   </table>

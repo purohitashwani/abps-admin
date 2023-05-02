@@ -1,0 +1,27 @@
+#menu.nav {
+    width: 100%;
+    li {
+        width: 100%;
+    }
+    
+}
+
+.submenu {
+    a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        i {
+            font-style: normal;
+        }
+        
+    }
+    ul {
+        li {
+            padding: 0px 10px;
+            a {
+                color: #222020;
+            }
+        }
+    }
+}

@@ -1,0 +1,156 @@
+<mat-card class="home-card my-3">
+<div class="container-fluid py-0 px-2">
+    <div class="row flex-nowrap">
+        <div class="col-auto col-md-12 col-xl-12 px-sm-12 px-0">
+            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 text-white min-vh-100">
+                <a class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-black text-decoration-none">
+                    <span class="fs-5 d-none d-sm-inline">Menu</span>
+                </a>
+                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                    <li class="nav-item">
+                        <a [routerLink]="['/home']" routerLinkActive="active" class="nav-link align-middle px-0">
+                            <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a [routerLink]="['/user-list']" routerLinkActive="active" class="nav-link align-middle px-0">
+                            <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Users</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link align-middle px-0">
+                            <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Donations</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link align-middle px-0">
+                            <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Jobs</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link align-middle px-0">
+                            <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">News</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link align-middle px-0">
+                            <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Events</span>
+                        </a>
+                    </li>
+                    <li class="submenu">
+                        <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                            <span class="ms-1 d-none d-sm-inline">Sports</span>
+                            <i class="fs-4 bi-bootstrap close">+</i>
+                        </a>
+                        <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Sports Coach</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Sports Complex</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="submenu">
+                        <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                            <span class="ms-1 d-none d-sm-inline">Devotional</span>
+                            <i class="fs-4 bi-bootstrap close">+</i>
+                        </a>
+                        <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Hindu Calendar</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Festivals</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Books & Lyrics</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Vrat & Upavas</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="submenu">
+                        <a href="#submenu4" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                            <span class="ms-1 d-none d-sm-inline">Health</span>
+                            <i class="fs-4 bi-bootstrap close">+</i>
+                        </a>
+                        <ul class="collapse nav flex-column ms-1" id="submenu4" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Docotors</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Hospitals</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Insurance</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Medical Shop</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="submenu">
+                        <a href="#submenu5" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                            <span class="ms-1 d-none d-sm-inline">Matrimony</span>
+                            <i class="fs-4 bi-bootstrap close">+</i>
+                        </a>
+                        <ul class="collapse nav flex-column ms-1" id="submenu5" data-bs-parent="#menu">
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Var</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Vadhu</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="submenu">
+                        <a href="#submenu6" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                            <span class="ms-1 d-none d-sm-inline">Educations</span>
+                            <i class="fs-4 bi-bootstrap close">+</i>
+                        </a>
+                        <ul class="collapse nav flex-column ms-1" id="submenu6" data-bs-parent="#menu">
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Schools</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Colleges</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Teachers</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Institute</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="submenu">
+                        <a href="#submenu7" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                            <span class="ms-1 d-none d-sm-inline">Apply</span>
+                            <i class="fs-4 bi-bootstrap close">+</i>
+                        </a>
+                        <ul class="collapse nav flex-column ms-1" id="submenu7" data-bs-parent="#menu">
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Job</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Education loan</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Medical loan</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Wedding loan</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Personal emergency loan</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</mat-card>

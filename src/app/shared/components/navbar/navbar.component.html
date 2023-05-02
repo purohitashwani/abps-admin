@@ -1,5 +1,5 @@
 <mat-toolbar>
-  <div class="container">
+  <div class="container-fluid m-0 p-0">
     <div class="d-flex align-items-center justify-content-between">
       <div class="app-logo">
         <!-- ! Logo should be svg or shoud as srcset -->
@@ -12,7 +12,7 @@
       </div>
       <div class="toolbar-navigation">
         <ng-container *ngIf="currentUser | async as user;else noUser">
-          <a
+          <!-- <a
             mat-icon-button
             [routerLink]="['/']"
             matTooltip="Home"
@@ -28,7 +28,7 @@
             *ngIf="user.role>1"
           >
             <mat-icon>group</mat-icon>
-          </a>
+          </a> -->
           <!-- USER MENU -->
 
           <button

@@ -138,13 +138,6 @@
   ],
   "profiles": [
     {
-      "email": "demo1@ho.co",
-      "fullName": "Demo Lord",
-      "role": 3,
-      "id": 1,
-      "userId": 1
-    },
-    {
       "email": "demo2@ho.co",
       "fullName": "Demo Super Admin",
       "role": 2,

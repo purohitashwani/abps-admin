@@ -2,20 +2,21 @@
   <ng-container *ngIf="currentUser$ | async as currentUser">
     <mat-card-header *ngIf="currentUser">
       <div mat-card-avatar class="home-header-image"></div>
-      <mat-card-title>{{ currentUser?.fullName }}</mat-card-title>
-      <mat-card-subtitle>{{ userRoles[currentUser.role] }}</mat-card-subtitle>
+      <!-- <mat-card-title>{{ currentUser?.fullName }}</mat-card-title>
+      <mat-card-subtitle>{{ userRoles[currentUser.role] }}</mat-card-subtitle> -->
+      <mat-card-title>Ashwani Purohit</mat-card-title>
+      <mat-card-subtitle>Super Admin</mat-card-subtitle>
     </mat-card-header>
   </ng-container>
 
   <mat-card-content>
-    <h2>User Authorization Project</h2>
+    <h2>Puskarna Management Web App</h2>
     <p>
-      Welcome to User Management App! There is 3 types (Super Admin, Admin,
-      Customer) of roles. This app has 6 pages (Login, Register, Home, User
-      Listing, 401 and 404).
+      Welcome to Puskarna Samaj Management App! There is 3 types (Super Admin, Admin,
+      Users) of roles.
     </p>
 
-    <blockquote>
+    <!-- <blockquote>
       Some available accounts:
       <ul>
         <li>superadmin@mail.com</li>
@@ -111,6 +112,6 @@
         Admin privileges. To fix this issue should be disabled role input on
         user form if current user is same.
       </li>
-    </ul>
+    </ul> -->
   </mat-card-content>
 </mat-card>

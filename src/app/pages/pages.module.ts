@@ -12,7 +12,7 @@ import { SharedModule } from '@shared/shared.module';
 import { PagesRoutingModule } from './pages-routing.module';
 // COMPONENTS
 import { PagesComponent } from './pages.component';
-import { Navbar } from '@shared/components';
+import { Navbar, Sidebar } from '@shared/components';
 import { UserTable, UserModal, UserForm } from './user-list/components';
 //PAGES
 import { HomeComponent as HomePage } from './home/home.component';
@@ -22,6 +22,7 @@ import { UserListComponent as UserListPage } from './user-list/user-list.compone
   declarations: [
     PagesComponent,
     Navbar,
+    Sidebar,
     HomePage,
     UserListPage,
     UserTable,
